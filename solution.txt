@@ -1,2 +1,7 @@
-Please add your pseudocode to this file
-And a written explanation of your solution
+FUNCTION consecutiveSubstrings(string)
+    For each index i in string (anchor point):
+        For each index j following i:
+            Add the characters from i to j to the result list
+
+    Return the result list
+END FUNCTION
